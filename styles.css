@@ -1,0 +1,32 @@
+
+#opdracht2b {
+    color: green;
+}
+
+#opdracht2d {
+    color: blue;
+}
+
+#opdracht2e {
+    color: red;
+}
+
+#opdracht-4 {
+    list-style: none;
+}
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    font-weight: bold;
+    background-color: green;
+    color: antiquewhite;
+    padding: 10px;
+    border: 0px;
+}
+
+#result {
+    height: 200px;
+}
