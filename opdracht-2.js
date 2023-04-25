@@ -36,7 +36,8 @@ console.log('Zie pagina... -> ' + totalBought)
 // Opdracht 2e: Geef in het rood weer hoeveel tv's er nog verkocht moeten worden.
 
 let left
-const leftToSell = inventory.map((item)=>{
+// const leftToSell = inventory.map((item)=>{
+inventory.forEach((item)=>{
     return left = totalBought - totalSold
 })
 leftToSell2 = document.getElementById('opdracht2e')

@@ -9,7 +9,8 @@ console.log(tvNames)
 // Opdracht 1b: Gebruik een array-methode om alle tv's te verzamelen (de hele objecten) die volledig uitverkocht zijn. Log de uitkomst in de console.
 
 const soldOut = inventory.filter((item)=>{
-    return item.originalStock - item.sold < 1
+    // return item.originalStock - item.sold < 1
+    return item.originalStock === item.sold
 })
 console.log('Opdracht 1b')
 console.log(soldOut)
@@ -17,7 +18,7 @@ console.log(soldOut)
 // Opdracht 1c: Gebruik een array-methode om alle tv's te verzamelen (de hele objecten) die over AmbiLight beschikken. Log de uitkomst in de console.
 
 const  ambiLight = inventory.filter((item)=>{
-    return item.options.ambiLight === true
+    return item.options.ambiLight
 })
 console.log('Opdracht 1c')
 console.log(ambiLight)
